@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: azure;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 2REM;
+    padding: 20px;
+}
+
+.divcontainer {
+    border: 2px solid plum;
+    padding: 35px;
+    text-align: left;
+    width: 30%;
+    margin: auto;
+
+}
+
+label,
+select,
+input {
+    padding: 10px;
+    height: 2.5rem;
+    margin: 15px;
+    width: 80%
+}
+
+.divinput {
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 15px;
+    margin: 15px;
+    background-color: beige;
+    color: chocolate;
+    width: 80%;
+    font-size: 1rem;
+
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+    color: crimson;
+
+}
+
+/* classes used by js */
+
+.redbox {
+    border: 2px red solid;
+}

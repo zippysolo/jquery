@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Flight Bookings">
+    <link rel="stylesheet" href="bookings.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>Book a Flight</title>
+</head>
+
+<body>
+    <header>
+        <h1>Flight Booking</h1>
+    </header>
+    <main>
+        <form>
+            <div class="divcontainer">
+                <div>
+                    <label class="flightLabel" for="flights">Choose a Flight</label>
+                </div>
+                <div>
+                    <div class="divinput">
+                        <select name="flights" id="flights" required>
+                            <option value="">select a flight</option>
+                            <option value="100">Iceland: $100</option>
+                            <option value="200">Switzerland: $200</option>
+                            <option value="400">London: $400</option>
+                            <option value="600">Hong Kong: $600</option>
+                            <option value="800">New York: $800</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="passCnt">Enter Number of Passengers</label>
+                    </div>
+                    <div class="divinput">
+                        <input type="number" id="passCnt" name="passCnt" min="1" max="10" required>
+                    </div>
+                    <div>
+                        <p class="message"></p>
+                    </div>
+                    <div>
+                        <p class="total"></p>
+                    </div>
+                    <button class="btn-submit">Submit</button>
+                </div>
+        </form>
+    </main>
+    <script src="bookings.js"></script>
+</body>
+
+</html>
